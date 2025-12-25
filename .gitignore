@@ -1,17 +1,19 @@
-# node
+# Node
 node_modules/
+npm-debug.log*
+yarn-error.log*
 
-# env
+# Environment variables
 .env
 
-# sqlite
-*.sqlite
-
-# uploads
-uploads/
-
-# build
+# Build
 build/
+dist/
 
-# logs
-npm-debug.log*
+# OS
+.DS_Store
+Thumbs.db
+
+*.sqlite
+database.sqlite
+uploads/
