@@ -1,15 +1,17 @@
-# dependencies
+# node
 node_modules/
 
-# environment variables
+# env
 .env
 
-# uploads (optional)
-uploads/*
+# sqlite
+*.sqlite
+
+# uploads
+uploads/
+
+# build
+build/
 
 # logs
 npm-debug.log*
-
-# sqlite database
-database.sqlite
-

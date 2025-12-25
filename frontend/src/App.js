@@ -1,14 +1,13 @@
-import Login from "./Login";
-import Vitals from "./Vitals";
-import Reports from "./Reports";
+import VitalsList from "./VitalsList";
+import ReportsList from "./ReportsList";
 
 function App() {
   return (
-    <div style={{ padding: 20 }}>
-      <h2>Digital Health Wallet</h2>
-      <Login />
-      <Vitals />
-      <Reports />
+    <div>
+      <h1>Digital Health Wallet</h1>
+      <VitalsList />
+      <ReportsList />
+
     </div>
   );
 }
